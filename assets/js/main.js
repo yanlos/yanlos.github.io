@@ -159,13 +159,13 @@
 							bottom = 0;
 
 						}
-						else if ($this.hasClass('bottom')) {
-
-							mode = 'bottom-only';
-							top = 0;
-							bottom = '20%';
-
-						}
+//						else if ($this.hasClass('bottom')) {
+//
+//							mode = 'bottom-only';
+//							top = 0;
+//							bottom = '20%';
+//
+//						}
 						else {
 
 							mode = 'middle';
