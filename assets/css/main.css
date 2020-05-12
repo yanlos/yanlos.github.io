@@ -4109,3 +4109,45 @@ input, select, textarea {
 					}
 
 	}
+
+
+.accordion {
+  background-color: #e13652;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+   font-size: 20px;
+  border: inset;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* #e76278  #e13652 #e44c65 */
+.active, .accordion:hover {
+  background-color: #000000;
+}
+
+.panel {
+  width: 100%;
+  padding: 0 18px;
+    font-size: 20px;
+    color: #e13652;
+  background-color: #FFFFFF;
+  display: none;
+    border: outset;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 20px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
