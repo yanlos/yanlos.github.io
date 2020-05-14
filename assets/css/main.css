@@ -2564,6 +2564,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+        .image.fit1 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+		}
+
+.image.fit1 img {
+				width: 50%;
+			}
+
+
 /* List */
 
 	ol {
@@ -3622,6 +3633,8 @@ input, select, textarea {
 				padding: 4.5em 2.5em;
 				width: 25em;
 			}
+        
+           
 
 		/* Wrapper */
 
