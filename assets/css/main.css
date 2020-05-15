@@ -4137,7 +4137,7 @@ input, select, textarea {
   transition: 0.4s;
 }
 
-/* #e76278  #e13652 #e44c65 */
+/* #e76278  #e13652 #e44c65 e13652 */
 .active, .accordion:hover {
   background-color: #000000;
 }
@@ -4146,9 +4146,10 @@ input, select, textarea {
   width: 100%;
   padding: 0 18px;
     font-size: 20px;
-    color: #e13652;
+    color: #000000;
   background-color: #FFFFFF;
-  display: none;
+font-weight: bold;
+    display: none;
     border: outset;
   overflow: hidden;
 }
@@ -4156,7 +4157,7 @@ input, select, textarea {
 .accordion:after {
   content: '\02795';
   font-size: 20px;
-  color: #000000;
+  color: #e13652;
   float: right;
   margin-left: 5px;
 }
