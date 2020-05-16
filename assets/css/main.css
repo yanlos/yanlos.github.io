@@ -4134,7 +4134,7 @@ input, select, textarea {
    font-size: 20px;
   border: inset;
   outline: none;
-  transition: 0.4s;
+  transition: 1.5s;
 }
 
 /* #e76278  #e13652 #e44c65 e13652 */
